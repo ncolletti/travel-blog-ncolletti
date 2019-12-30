@@ -4,7 +4,7 @@
       <img src="~/assets/images/paper-plane.svg" class="block w-24 mb-8" alt="Image of a paper plane flying." />
       <h4 class="text-4xl mb-3 text-secondary">Message sent 👌</h4>
       <h5 class="text-xl mb-5">I'll be in touch ASAP!</h5>
-      <button class="button mb-8" @click="goToHome">Go To Home</button>
+      <button class="button mb-8 bg-grey-dark" @click="goToHome">Go To Home</button>
       <div aria-hidden="true" class="text-grey text-xs">
         Image by
         <external-link class="text-grey" href="https://www.flaticon.com/free-icon/paper-plane_941565"

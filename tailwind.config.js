@@ -44,7 +44,8 @@ View the full documentation at https://tailwindcss.com.
 let colors = {
   transparent: 'transparent',
 
-  black: '#22292f',
+  blackish: '#22292f',
+  black: '#000000',
   'grey-darkest': '#3d4852',
   'grey-darker': '#606f7b',
   'grey-dark': '#8795a1',
@@ -119,6 +120,12 @@ let colors = {
   'purple-lighter': '#d6bbfc',
   'purple-lightest': '#f3ebff',
 
+  'genesis-purple': '#5f2a62',
+  'genesis-purple-light': '#a976c3',
+  'genesis-green': '#a0de59',
+  'genesis-green-dark': '#466b5a',
+  'genesis-yellow': '#f5c024',
+
   // 'pink-darkest': '#451225',
   // 'pink-darker': '#6f213f',
   'pink-dark': '#eb5286',
@@ -130,10 +137,11 @@ let colors = {
 
 colors = {
   ...colors,
-  primary: colors['green'],
-  secondary: colors['green-darker'],
-  accent: '#A833FF',
-  action: colors['purple-darker'],
+  primary: colors['genesis-green'],
+  secondary: colors['green-green-dark'],
+  // accent: '#A833FF',
+  accent: colors['genesis-yellow'],
+  action: colors['genesis-purple-light'],
 }
 
 module.exports = {

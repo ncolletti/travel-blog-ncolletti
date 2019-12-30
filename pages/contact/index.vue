@@ -2,18 +2,18 @@
   <section class="relative z-1">
     <the-title>
       <h1 slot="title" class="text-3xl">{{ title }}</h1>
-      <p slot="subtitle">
+      <p slot="subtitle" class="text-grey-light">
         Message me:
         <a :href="'mai' + 'lto:colletti.nick' + '@' + 'g' + 'mai' + 'l' + '.' + 'com'">{{
           'colletti.nick' + '(at)gm' + 'ail(dot)com'
         }}</a>
       </p>
     </the-title>
-    <form :name="formName" method="post" action="/thank-you" netlify netlify-honeypot="b">
+    <form :name="formName" method="post" class="text-grey-light" action="/thank-you" netlify netlify-honeypot="b">
       <p class="hidden" aria-hidden="true">
         <label>Don’t fill this out if you're human: <input name="b" type="text"/></label>
       </p>
-      <input type="hidden" name="form-name" :value="formName" />
+      <input type="hidden" name="form-name" :value="formName"/>
       <label
         >Name
         <input
@@ -67,7 +67,7 @@
         ></textarea>
       </label>
       <div class="row flex justify-end">
-        <button type="submit" class="button">Send</button>
+        <button type="submit" class="button bg-grey-dark">Send</button>
       </div>
     </form>
   </section>
@@ -87,7 +87,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Contact for: Freelancing, Consultant.',
+        content: 'Contact for: Freelancing, Consultant, Emotional Support.',
       },
     ],
   },
