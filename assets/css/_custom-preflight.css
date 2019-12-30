@@ -1,0 +1,55 @@
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+  background-color: config('colors.primary');
+}
+
+body {
+  background-color: config('colors.black');
+  font-family: config('fonts.sans');
+  margin: 0;
+}
+
+code {
+  white-space: pre-wrap;
+  max-width: 100%;
+  word-break: break-word !important;
+}
+
+pre {
+  @apply mx-8;
+}
+
+svg,
+img {
+  max-width: 100%;
+}
+
+label,
+label input,
+label textarea {
+  @apply block;
+}
+
+input:not([type='radio']):not([type='checkbox']),
+textarea {
+  @apply font-mono;
+}
+
+input,
+textarea,
+button {
+  border: none;
+  font-size: 100%;
+}
+
+button {
+  @apply text-accent font-bold p-2 bg-grey-light rounded;
+}
+
+button.button {
+  @apply rounded px-8 py-3 mt-2 transition;
+  &:hover {
+    @apply bg-purple-light text-purple-light;
+  }
+}

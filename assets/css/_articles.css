@@ -1,0 +1,31 @@
+.article-post {
+  img,
+  pre {
+    @apply mb-4 rounded-lg;
+  }
+
+  img {
+    @apply block mx-auto;
+  }
+
+  pre {
+    @apply text-base max-w-full overflow-scroll pb-4;
+  }
+
+  @screen sm {
+    pre {
+      @apply overflow-auto;
+    }
+  }
+
+  ul,
+  ol,
+  p {
+    margin-bottom: 1.45em;
+  }
+
+  ul,
+  ol {
+    padding-left: 1.2em;
+  }
+}

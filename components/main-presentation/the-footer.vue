@@ -1,0 +1,26 @@
+<template>
+  <div
+    class="text-right text-grey-darker pt-10 pb-12 sm:flex sm:items-center sm:justify-center media"
+    aria-label="Footer content"
+  >
+    <img
+      class="block h-16 sm:h-24 rounded-full sm:mb-0 sm:mx-0 mx-auto"
+      src="~/assets/images/avatar.jpg"
+      alt="Nick Colletti."
+    />
+    <div class="sm:ml-5 sm:text-left">
+      <p class="text-xl leading-tight mb-0">Nick Colletti</p>
+      <p class="text-sm leading-tight text-grey-darker mb-4">Developer</p>
+      <social-networks :dark="false" class="flex justify-center sm:justify-start mx-auto"></social-networks>
+    </div>
+  </div>
+</template>
+
+<script>
+const SocialNetworks = () => import('~/components/images/social-networks')
+export default {
+  components: {
+    SocialNetworks,
+  },
+}
+</script>
