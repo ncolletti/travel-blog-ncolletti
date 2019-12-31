@@ -42,7 +42,7 @@ export default {
           title: 'Albums',
         },
         {
-          href: '/map',
+          href: '/travel-map',
           name: 'Travel Map',
           title: 'Travel Map',
         },

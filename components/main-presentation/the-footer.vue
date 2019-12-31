@@ -10,7 +10,7 @@
     />
     <div class="sm:ml-5 sm:text-left">
       <p class="text-xl leading-tight mb-0">Nick Colletti</p>
-      <p class="text-sm leading-tight text-grey-darker mb-4">World Traveler & Developer</p>
+      <p class="text-sm leading-tight text-grey-darker mb-4">Developer. Traveler. Yogi.</p>
       <social-networks :dark="false" class="flex justify-center sm:justify-start mx-auto"></social-networks>
     </div>
   </div>
