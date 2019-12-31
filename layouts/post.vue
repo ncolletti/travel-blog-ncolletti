@@ -25,7 +25,7 @@ export default {
 
 <style>
 body {
-  background-color: config('colors.black');
+  background-color: config('colors.grey-lightest');
   font-family: config('fonts.sans');
 }
 </style>

@@ -7,9 +7,9 @@
       <div class="max-w-3/4 sm:max-w-1/2 my-auto mx-auto">
         <h1 class="mb-8 text-white sm:text-5xl text-3xl">{{ post.title }}</h1>
         <p class="text-white">
-          <the-time :date="post.date" class="block sm:inline-block sm:text-2xl"></the-time>
-          <span class="hidden sm:inline-block">·</span>
-          <span class="block sm:inline-block">{{ cupsWhileReading }}️ {{ formattedMinutesToRead }} read</span>
+          <the-time :date="post.date" class="block sm:inline-block sm:text-2xl text-white"></the-time>
+          <span class="hidden sm:inline-block text-white">·</span>
+          <span class="block sm:inline-block text-white">{{ cupsWhileReading }}️ {{ formattedMinutesToRead }} read</span>
         </p>
       </div>
     </header>

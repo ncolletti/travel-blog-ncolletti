@@ -16,11 +16,11 @@ const isProd = process.env.NODE_ENV === 'production'
 const APP_NAME = 'ncolletti.com'
 const APP_URL = 'http://ncolletti.com' // do not end it in slash
 const APP_COVER_IMG = '/cover.png'
-const THEME_COLOR = tailwindConfig.colors['genesis-green']
+const THEME_COLOR = tailwindConfig.colors['genesis-yellow']
 
 const FEED_FILE_NAME = 'feed.xml'
 const AUTHOR = '@ncolletti85'
-const AUTHOR_EMAIL = 'nick' + '@ncolletti' + '.' + 'com'
+const AUTHOR_EMAIL = 'gnomish' + '@gmail' + '.' + 'com'
 
 const blogPostRoutes = getRoutesFromPosts({
   '/blog': 'blog/posts/*.json',

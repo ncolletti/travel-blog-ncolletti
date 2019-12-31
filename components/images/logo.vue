@@ -1,4 +1,5 @@
 <template>
+<img/>
   <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 747 229" aria-label="ncolletti logo">
   <title>ncolletti homepage</title>
   <g opacity=".7" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd">
@@ -6,7 +7,9 @@
     <path d="M417.174 68.704c1.107 12.753-9.287 13.193-18.707 12.308-1.407-.133 18.038-19.943 18.707-12.308z"/>
   </g>
 </svg> -->
-  <svg width="125px" height="73.0164794921875px" xmlns="http://www.w3.org/2000/svg" viewBox="-310.77875976562495 3.49176025390625 1121.55751953125 143.0164794921875" style="background: rgb(95, 42, 98);" preserveAspectRatio="xMidYMid">
+  
+  
+  <!-- <svg width="125px" height="73.0164794921875px" xmlns="http://www.w3.org/2000/svg" viewBox="-310.77875976562495 3.49176025390625 1121.55751953125 143.0164794921875" style="background: rgb(95, 42, 98);" preserveAspectRatio="xMidYMid">
     <defs>
       <linearGradient id="editing-glowing-gradient" x1="0.8146601955249185" x2="0.18533980447508147" y1="0.8885729807284856" y2="0.11142701927151444">
         <stop offset="0" stop-color="#a976c3"></stop>
@@ -33,6 +36,8 @@
         text-anchor: middle;
       }
 
-    </style>
-  </svg>
+    </style> -->
+
+
+  <!-- </svg> -->
 </template>

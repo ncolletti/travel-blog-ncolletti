@@ -53,6 +53,7 @@ let colors = {
   'grey-light': '#dae1e7',
   // 'grey-lighter': '#f1f5f8',
   'grey-lightest': '#f8fafc',
+  'grey-light-blue': '#e6edf4',
   white: '#ffffff',
   'false-white': 'hsl(0, 0%, 98%)',
 
@@ -80,13 +81,13 @@ let colors = {
   // 'yellow-lighter': '#fff9c2',
   // 'yellow-lightest': '#fcfbeb',
 
-  // 'green-darkest': '#0f2f21',
-  // 'green-darker': '#1a4731',
+  'green-darkest': '#0f2f21',
+  'green-darker': '#1a4731',
   'green-dark': '#1f9d55',
   'green': '#38c172',
-  // 'green-light': '#51d88a',
-  // 'green-lighter': '#a2f5bf',
-  // 'green-lightest': '#e3fcec',
+  'green-light': '#51d88a',
+  'green-lighter': '#a2f5bf',
+  'green-lightest': '#e3fcec',
 
   'teal-darkest': '#0d3331',
   'teal-darker': '#20504f',
@@ -137,11 +138,11 @@ let colors = {
 
 colors = {
   ...colors,
-  primary: colors['genesis-green'],
-  secondary: colors['green-green-dark'],
+  primary: colors['green'],
+  secondary: colors['green-dark'],
   // accent: '#A833FF',
-  accent: colors['genesis-yellow'],
-  action: colors['genesis-purple-light'],
+  accent: colors['genesis-purple'],
+  action: colors['genesis-yellow'],
 }
 
 module.exports = {
@@ -824,7 +825,7 @@ module.exports = {
     primary: colors['primary'],
     secondary: colors['secondary'],
     accent: colors['accent'],
-    action: colors['purple-darker'],
+    action: colors['action'],
   },
 
   /*
@@ -855,7 +856,7 @@ module.exports = {
   |
   | Currently supported variants:
   |   - responsive
-  |   - hover
+  |   - tail
   |   - focus
   |   - active
   |   - group-hover

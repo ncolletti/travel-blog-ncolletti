@@ -1,5 +1,5 @@
 .card {
-  @apply overflow-hidden border rounded shadow-md p-6 transition:box-shadow bg-grey-darkest;
+  @apply overflow-hidden border rounded shadow-md p-6 transition:box-shadow bg-grey-light-blue;
   &:hover {
     @apply shadow-lg;
   }
