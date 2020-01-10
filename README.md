@@ -1,6 +1,20 @@
-# Nick Colletti Personal Site
+# Nick Colletti Personal Travel Blog
 
-> Personal Travel Blog and Dev Portfolio
+> Letting the world in on my 2020 adventure! 
+
+## To Do
+- Use vuex state to grab initial data
+- Make titles and comment section for each album
+- Make link to Google Photos album for each 'card'
+- Add a mailer/newsletter with each blog post [Link](https://www.jennapederson.com/blog/2019/11/4/sending-email-with-netlify-functions)
+- Load Last.fm image in vuex store
+
+## Done
+- Add Router
+- Build Albums page
+- Add About page
+- Add Goodreads Widget
+- Add Last.fm Widget
 
 ## Build Setup
 
@@ -19,6 +33,6 @@ $ npm start
 $ npm run generate
 ```
 Inspired by and built upon: 
-[Graficos](https://github.com/gangsthub/ncolletti.com)
+[Graficos](https://github.com/gangsthub/graficos.net)
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).

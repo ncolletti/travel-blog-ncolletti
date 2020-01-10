@@ -26,20 +26,23 @@ export default {
 
 <style lang="postcss">
 .bg-container {
+  -webkit-transition: width 2s;
+  transition: width 2s;
   &:after {
     content: '';
     @apply absolute pin w-full h-full;
-    background-image: url('~assets/images/valves/v2.svg');
-    background-size: 100vw;
+    background-image: url('~assets/images/map.svg');
+    background-size: 100vw 50vh;
     background-repeat: no-repeat;
     pointer-events: none;
-    background-position: 80vw -30vw;
+    background-position: center 25vw;
+    
+    
   }
 }
 @screen md {
   .bg-container:after {
-    background-position: 85vw -9vw;
-    background-size: 40vw;
+    background-position: center 10vw;
   }
 }
 </style>

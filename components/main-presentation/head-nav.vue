@@ -1,10 +1,10 @@
 <template>
-  <nav class="flex items-center bg-blackish overflow-hidden" aria-label="Main Navigation." role="presentation">
+  <nav class="flex items-center bg-travel-dark overflow-hidden" aria-label="Main Navigation." role="presentation">
     <nuxt-link
       class="flex items-center text-white flex-no-shrink mx-6 py-4 disable-underline disable-transition disable-hover"
       to="/">
-      <img src="/logo5.png">
-      <!-- <the-logo class="h-8 transition:color hover:text-action disable-hover"></the-logo> -->
+      <img src="/logo.png">
+      <the-logo class="h-8 transition:color hover:text-action disable-hover"></the-logo>
     </nuxt-link>
     <ul class="pl-0 h-full w-full flex-1 flex-grow items-center my-0 flex sm:justify-start justify-end">
       <li v-for="(link, i) in sections" :key="i" class="block inline-block">
@@ -38,13 +38,18 @@ export default {
         },
         {
           href: '/albums',
-          name: 'Albums',
-          title: 'Albums',
+          name: 'Photo Albums',
+          title: 'Photo Albums',
         },
         {
           href: '/travel-map',
           name: 'Travel Map',
           title: 'Travel Map',
+        },
+        {
+          href: '/about',
+          name: 'About',
+          title: 'About',
         },
         {
           href: '/contact',

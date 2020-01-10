@@ -92,7 +92,7 @@ let colors = {
   'teal-darkest': '#0d3331',
   'teal-darker': '#20504f',
   'teal-dark': '#38a89d',
-  teal: '#4dc0b5',
+  'teal': '#4dc0b5',
   'teal-light': '#64d5ca',
   // 'teal-lighter': '#a0f0ed',
   // 'teal-lightest': '#e8fffe',
@@ -134,14 +134,18 @@ let colors = {
   // 'pink-light': '#fa7ea8',
   // 'pink-lighter': '#ffbbca',
   // 'pink-lightest': '#ffebef'
+  'travel-dark': '#004d61',
+  'travel': '#348498',
+  'travel-light': '#7ad9f5',
+  'travel-lightest': '#bdf2d5',
+  'travel-accent': '#5d13e7'
 }
 
 colors = {
   ...colors,
-  primary: colors['green'],
-  secondary: colors['green-dark'],
-  // accent: '#A833FF',
-  accent: colors['genesis-purple'],
+  primary: colors['travel'],
+  secondary: colors['travel-light'],
+  accent: colors['travel-dark'],
   action: colors['genesis-yellow'],
 }
 

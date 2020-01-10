@@ -44,12 +44,12 @@ button {
 }
 
 button {
-  @apply text-accent font-bold p-2 rounded;
+  @apply text-action font-bold p-2 rounded;
 }
 
 button.button {
   @apply rounded px-8 py-3 mt-2 transition;
   &:hover {
-    @apply bg-genesis-yellow text-genesis-purple-light;
+    @apply bg-action text-accent;
   }
 }

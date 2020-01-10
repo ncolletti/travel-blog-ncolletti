@@ -16,7 +16,7 @@ const isProd = process.env.NODE_ENV === 'production'
 const APP_NAME = 'ncolletti.com'
 const APP_URL = 'http://ncolletti.com' // do not end it in slash
 const APP_COVER_IMG = '/cover.png'
-const THEME_COLOR = tailwindConfig.colors['genesis-yellow']
+const THEME_COLOR = tailwindConfig.colors['travel-dark']
 
 const FEED_FILE_NAME = 'feed.xml'
 const AUTHOR = '@ncolletti85'
@@ -97,8 +97,6 @@ export default {
         type: 'image/x-icon',
         href: 'icon.ico?v2',
       }
-      // { hid: 'webmention', rel: 'webmention', href: 'https://webmention.io/ncolletti.com/webmention' },
-      // { hid: 'pingback', rel: 'pingback', href: 'https://webmention.io/ncolletti.com/xmlrpc' },
     ],
   },
   /*
@@ -279,7 +277,6 @@ export default {
   env: {
     APP_NAME,
     APP_URL,
-    WEBMENTIONS_TOKEN: 'iNlunTkDd9uJ93CWoVrhYw',
     social: {
       ...socialLinks,
     },

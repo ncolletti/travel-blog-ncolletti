@@ -1,7 +1,7 @@
 {
-  "name": "ncolletti",
+  "name": "travel-blog-ncolletti",
   "version": "1.0.0",
-  "description": "my personal blog",
+  "description": "my personal travel blog",
   "author": "nick colletti <colletti.nick@gmail.com>",
   "private": true,
   "scripts": {

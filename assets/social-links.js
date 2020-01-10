@@ -10,5 +10,9 @@ module.exports = {
   cv: {
     name: 'Nick Colletti\'s CV (not available yet)',
     link: 'https://zombo.com',
+  },
+  instagram: {
+    name: 'ncolletti85',
+    link: 'https://www.instagram.com/ncolletti85/'
   }
 }
