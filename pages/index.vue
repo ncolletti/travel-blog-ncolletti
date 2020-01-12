@@ -6,12 +6,12 @@
         font-family: Arial Black;
         dominant-baseline: central;
         text-anchor: middle;
-        <title>ncolletti.com</title>
+        <title>collettitravels.com</title>
       }</style></svg>
     </the-title>
     <section class="container mx-auto sm:mt-8 px-4" aria-label="Main section.">
-      <h2 class="text-2xl mb-8">I'm Nick Colletti!</h2>
-      <h3 slot="title" class="text-xl mb-6">About ncolletti.com and who I am...</h3>
+      <h2 class="text-2xl mb-8">Welcome!</h2>
+      <h3 slot="title" class="text-xl mb-6">About collettitravels.com and who I am...</h3>
       <!-- <p class="text-base">
         Awesome! It's been awhile, but here I am, again. You may know me as
         <external-link :href="social.twitter.link">@{{ social.twitter.name }}</external-link>

@@ -13,8 +13,8 @@ import { getTagsFromPosts } from './core/posts'
 
 const isProd = process.env.NODE_ENV === 'production'
 
-const APP_NAME = 'ncolletti.com'
-const APP_URL = 'http://ncolletti.com' // do not end it in slash
+const APP_NAME = 'collettitravels.com'
+const APP_URL = 'http://collettitravels.com' // do not end it in slash
 const APP_COVER_IMG = '/cover.png'
 const THEME_COLOR = tailwindConfig.colors['travel-dark']
 
