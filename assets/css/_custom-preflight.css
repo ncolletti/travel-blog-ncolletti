@@ -44,7 +44,7 @@ button {
 }
 
 button {
-  @apply text-action font-bold p-2 rounded;
+  @apply text-primary font-bold p-2 rounded;
 }
 
 button.button {
