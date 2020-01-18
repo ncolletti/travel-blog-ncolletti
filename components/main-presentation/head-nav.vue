@@ -47,15 +47,10 @@ export default {
           title: 'Travel Map',
         },
         {
-          href: '/about',
-          name: 'About',
-          title: 'About',
-        },
-        {
-          href: '/contact',
-          name: 'Contact',
-          title: 'Contact',
-        },
+          href: '/follow',
+          name: 'Follow Me',
+          title: 'Follow',
+        }
       ],
     }
   },

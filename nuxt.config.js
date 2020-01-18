@@ -89,6 +89,8 @@ export default {
       { hid: 'itemprop-image', itemprop: 'image', content: APP_URL + APP_COVER_IMG },
       // Google
       { name: 'google-site-verification', content: 'i9WbOFWpz5buDSxx-_jC7DjtnD8Xrin3p2lPHhBOlkM' },
+      // RSS feed
+      { rel: "alternate", type: "application/rss+xml", title: APP_NAME, href: "https://collettitravels.com/feed.xml" }
     ],
     link: [
       { hid: 'publisher', rel: 'publisher', href: APP_URL },

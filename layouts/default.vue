@@ -36,8 +36,7 @@ export default {
     background-repeat: no-repeat;
     pointer-events: none;
     background-position: center 25vw;
-    
-    
+
   }
 }
 @screen md {

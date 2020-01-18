@@ -14,5 +14,9 @@ module.exports = {
   instagram: {
     name: 'ncolletti85',
     link: 'https://www.instagram.com/ncolletti85/'
+  },
+  email: {
+    name: 'gnomish@gmail.com',
+    link: 'mailto:gnomish@gmail.com'
   }
 }
