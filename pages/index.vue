@@ -10,29 +10,27 @@
       }</style></svg>
     </the-title>
     <section class="container mx-auto sm:mt-8 px-4" aria-label="Main section.">
-      <h2 class="text-2xl mb-8">Welcome!</h2>
-      <h3 slot="title" class="text-xl mb-6">About collettitravels.com and who I am...</h3>
-      <!-- <p class="text-base">
-        Awesome! It's been awhile, but here I am, again. You may know me as
-        <external-link :href="social.twitter.link">@{{ social.twitter.name }}</external-link>
-        or
-        <external-link :href="social.github.link">{{ social.github.name }}</external-link>. The first version of this site was made by me in
-        <external-link href="http://web.archive.org/web/20020603194144/http://www.ncolletti.com:80/">the early 2000's</external-link>. Yes, I was and I am a proud self-taught geek. I've also studied Agriculture Engineering and a bunch of other
-        things.
-      </p>
-      <p class="text-base">
-        In case you are interested, I have also prepared an online version of
-        <external-link :href="social.cv.link">my CV 📝</external-link>.
-      </p>
-      <p class="text-base">
-        This is the first time I'm publishing my web on OS. Be sure you check
-        <external-link href="https://github.com/gangsthub/ncolletti.com">the source</external-link>.
-      </p>
-      <p class="text-base">
-        The <nuxt-link to="/blog">Blog section</nuxt-link> is powered by Nuxt and Netlify. Actually, I wrote
-        <nuxt-link to="/blog/2018-08-21-setting-up-nuxt-with-netlify-netlify-cms-and-netlify-identity">a post</nuxt-link>
-        about the process.
-      </p> -->
+      <h2 slot="title" class="text-x1 mb-6">What's this all about</h2>
+         <p class="text-base">
+          My past 10 of so years have been stuck in an office and in front of a screen.
+          Before my next foray into corporate subordination I felt it was necessary to experience more of what this world has to offer.
+          So I'm traveling for the next few months and using this site to document the travels and also using it a project to stay sharp with web development.
+        </p>
+        <h2 slot="title" class="text-x1 mb-6">Staying in touch</h2>
+        <div class="about-homepage">
+        <p class="text-base">
+          I'll be posting thoughts and musings on the road to my <nuxt-link to="/blog">blog</nuxt-link>.
+        </p>
+        <p class="text-base">
+          There is a <nuxt-link to="/travel-map">Travel Map</nuxt-link> to see where I've been so far.
+        </p>
+        <p class="text-base">
+          Take a sneak peak into my trip by visiting the <nuxt-link to="/albums">Photo Album section</nuxt-link>.
+        </p>
+        <p class="text-base">
+          The <nuxt-link to="/follow">Follow Me</nuxt-link> page has email subscriptions and other cool stuff to checkout.
+        </p>
+      </div>
     </section>
   </section>
 </template>
