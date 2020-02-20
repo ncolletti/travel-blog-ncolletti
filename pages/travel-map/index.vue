@@ -53,10 +53,10 @@ export default {
     meta: [{ hid: 'robots', name: 'robots', content: 'noindex' }],
     script: [
       { src: '//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js'},
-      { src: 'js/openmap.js'}
+      { src: '/js/openmap.js'}
     ],
     link: [
-      { rel: 'stylesheet', href: 'css/openmap.css' },
+      { rel: 'stylesheet', href: '/css/openmap.css'},
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato:400,900' },
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css' }
     ]
